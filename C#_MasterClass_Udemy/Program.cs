@@ -1,1 +1,3 @@
-﻿Console.WriteLine("Hello, World!");
+﻿var ar = new Arithmetic();
+
+ar.SimpleCalculator();
