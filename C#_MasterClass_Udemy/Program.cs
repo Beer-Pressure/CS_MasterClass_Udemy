@@ -1,3 +1,7 @@
-﻿var ar = new Arithmetic();
+﻿internal static class Program
+{
+    static void Main()
+    {
 
-ar.SimpleCalculator();
+    }
+}
