@@ -1,3 +1,7 @@
 <Solution>
   <Project Path="C#_MasterClass_Udemy/C#_MasterClass_Udemy.csproj" />
+  <Project Path="QuizApp/QuizApp.csproj" Id="42e156cc-4871-46c6-b946-cbae138454a9" />
+  <Project Path="RocketApp/RocketApp.csproj" Id="5c36a625-978e-44c4-a19d-63e6f4f3a477" />
+  <Project Path="SampleProject/SampleProject.csproj" Id="06c8fc1e-8538-42c8-af3e-d250bc13a21c" />
+  <Project Path="SimpleCalculator/SimpleCalculator.csproj" Id="6bd758f5-5c10-485c-8bb1-239ea48d5a85" />
 </Solution>
