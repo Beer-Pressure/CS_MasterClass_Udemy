@@ -11,7 +11,7 @@ namespace RocketApp
         {
             rocket = "    /\\    " +
                 "\n   /  \\   " +
-                "\n  /    \\   " +
+                "\n  / () \\   " +
                 "\n /      \\   " +
                 "\n |      |  " +
                 "\n |      |  " +
@@ -29,14 +29,13 @@ namespace RocketApp
                 Console.Clear();
                 rocket = "\n" + rocket;
                 Console.WriteLine(rocket);
-                Thread.Sleep(100);
+                Thread.Sleep(500);
             }
         }
 
         public void LandingComplete()
         {
             Thread.Sleep(1000);
-            Console.Clear();
             Console.WriteLine("The rocket has landed. Woohoo! Another successful landing!");
         }
     }
