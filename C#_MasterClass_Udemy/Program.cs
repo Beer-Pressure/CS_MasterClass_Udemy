@@ -18,7 +18,7 @@ internal class Program
         ts.a = 1;
         ts.b = 2;
 
-        Console.WriteLine(ts)
+        //Console.WriteLine(ts)
 
         Question[] questions = new Question[]
         {

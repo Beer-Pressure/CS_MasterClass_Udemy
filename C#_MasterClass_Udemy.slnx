@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="C#CapstoneProject/CapstoneProject.csproj" Id="3637267b-b2ae-4d3c-bca1-649bb816012a" />
   <Project Path="C#_MasterClass_Udemy/C#_MasterClass_Udemy.csproj" />
+  <Project Path="DiaryApp/DiaryApp.csproj" Id="5bd6b4ac-9e5b-4606-8293-c33c4e404345" />
 </Solution>
