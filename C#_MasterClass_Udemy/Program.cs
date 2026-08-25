@@ -3,10 +3,23 @@
     
 }
 
-internal static class Program
+internal struct TestStruct
+{
+    public int a;
+    public int b;
+}
+
+internal class Program
 {
     static void Main()
     {
+        TestStruct ts;
+
+        ts.a = 1;
+        ts.b = 2;
+
+        Console.WriteLine(ts)
+
         Question[] questions = new Question[]
         {
             new Question("What is the capital of Germany?",
