@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="C#CapstoneProject/CapstoneProject.csproj" Id="3637267b-b2ae-4d3c-bca1-649bb816012a" />
   <Project Path="C#_MasterClass_Udemy/C#_MasterClass_Udemy.csproj" />
+  <Project Path="DevSpot/DevSpot.csproj" Id="6b97cc66-c2d6-4d3f-9256-4bf397808bf3" />
   <Project Path="DiaryApp/DiaryApp.csproj" Id="5bd6b4ac-9e5b-4606-8293-c33c4e404345" />
   <Project Path="WebDiaryAPI/WebDiaryAPI.csproj" Id="70310b3b-d863-487a-8e3b-a09831c98888" />
 </Solution>
