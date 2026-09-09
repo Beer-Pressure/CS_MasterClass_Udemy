@@ -1,6 +1,7 @@
-
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using WebDiaryAPI.Data;
+using System.Data;
+//using WebDiaryAPI.Data;
 
 namespace WebDiaryAPI
 {
@@ -13,8 +14,16 @@ namespace WebDiaryAPI
             // Add services to the container.
 
             builder.Services.AddControllers();
-            builder.Services.AddDbContext<ApplicationDbContext>(
-                options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            //EFC method
+            //builder.Services.AddDbContext<ApplicationDbContext>(
+            //    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            //Dapper method
+            builder.Services.AddScoped<IDbConnection>(sp => 
+            new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             //builder.Services.AddOpenApi();
             builder.Services.AddEndpointsApiExplorer();
